@@ -12,10 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: biblioteca-universitaria
-
     steps:
       # Paso 1: Clonar el repositorio
       - name: Checkout del código
