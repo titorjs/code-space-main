@@ -1,11 +1,7 @@
 public class Libro {
-    private String titulo;
-    private String autor;
     private boolean disponible = true;
 
-    public Libro(String titulo, String autor) {
-        this.titulo = titulo;
-        this.autor = autor;
+    public Libro() {
     }
 
     public boolean estaDisponible() {
